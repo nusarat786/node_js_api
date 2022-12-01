@@ -7,8 +7,6 @@ const port = process.env.port || 8086
 //app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-//app.use(upload.array())
-
 
 
 app.use('/api', to_do_router);
