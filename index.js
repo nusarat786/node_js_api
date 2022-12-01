@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(upload.array())
 
 
-//Use the Router on the sub route /movies
+
 app.use('/api', to_do_router);
 
 
